@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: "Public Sans", sans-serif;
+}
+ /* style for nav  */
+nav{
+    height: 50px;
+    background-color: #0b1020;
+    color: #e7e5eb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem ;
+}
+
+#code-icon i{
+    color: #3b82f6;
+}
+
+.logo h3{
+    font-size: 1.5rem;
+}
+f
+#links{
+    display: flex;
+    align-items: center;
+}
+
+#links a{
+    text-decoration: none;
+    color: #e7e5eb;
+    font-weight: 700;
+    margin: 1.5rem;
+}
+
+#links a:hover{
+    color: #a8c2f4;
+}
+
+#them-control{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.dark-white{
+    height: 30px;
+    width: 30px;
+    border: none;
+    background:none;
+    color: #e7e5eb;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.resume{
+    height: 33px;
+    width: 100px;
+    border: 2px solid #3b82f6;
+    border-radius: 10px;
+    cursor: pointer;
+    background: none;
+    color: #3b82f6;
+    font-weight: 700;
+}
