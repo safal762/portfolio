@@ -71,3 +71,145 @@ f
     color: #3b82f6;
     font-weight: 700;
 }
+
+/* styling hero Section  */
+
+.hero{
+    background-color: #1e293b;
+    min-height: 30vh;
+    color: #e7e5eb;
+    display: flex;
+    align-items: center;
+    padding: 30px 50px;
+}
+
+#info-right{
+    width: 50%;
+        /* background-color: green; */
+}
+#info-left{
+    width: 50%;
+}
+
+#info-up h4 {
+    font-size: 25px;
+    text-align: left;
+}
+
+#info-up span{
+    text-align: left;
+    font-size: 60px;
+    font-weight: 700;
+    background: linear-gradient(to right , #3b82f6,#e7e5eb);
+     -webkit-background-clip: text; /*Clips the background image or gradient so it only appears behind the text characters. */
+    background-clip: text;
+     -webkit-text-fill-color: transparent; /*Makes the actual text color see-through, letting your gradient background show through the letters.*/
+}
+
+#info-up p{
+    color: #e7e5eb81;
+    margin-top: 15px;
+}
+
+#info-down{
+    margin-top: 15px;
+}
+#buttons{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+#view-projects{
+    height: 40px;
+    width: 180px;
+    border: none;
+    color: #e7e5eb;
+    background: #1c6def;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#contact{
+    height: 40px;
+    width: 110px;
+    border: 2px solid #3b82f6;
+    background-color: transparent;
+    color: #e7e5eb;
+    font-size: 16px;
+    border-radius: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#view-projects:hover{
+    background-color: #3b82f6;
+    transition: all 0.3s ease;
+}
+
+#social-links a{
+    text-decoration: none;
+    color: #e7e5eb;
+}
+
+#social-links{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#social-links i{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#social-links a:nth-child(2){
+    color: #3b82f6;
+}
+
+#image{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #5b687d46;
+    position: relative;
+    top: 20%;
+    left: 30%;
+    box-shadow: 0px 10px 8px #0b1020dc ;
+}
+/* #image img{
+    height: 350px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+} */
+
+#quote{
+    display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 20%;
+  right: 10%;
+      transform: perspective(400px) rotatey(40deg) rotateX(20deg);
+        transform-style: preserve-3d; 
+}
+
+#quote span{
+     font-size: 20px;
+     color: #e7e5eb9c;
+}
+
+.svg{
+    position: absolute;
+    top: 34%;
+    right: 10%;
+    rotate: -30deg;
+}
+
